@@ -1,0 +1,66 @@
+---
+title: 'Julia 安装'
+description: 学习如何在各个平台上安装 Julia语言软件包.
+---
+## 1. 软件包安装提示
+> 教程使用 Julia 1.7.x 版本 <br />
+
+- 下载请参考这个网页 [`Julia安装教程`](https://cn.julialang.org/downloads/)
+- 国内使用需要设置镜像,请参考这个网页 [`Julia 镜像设置`](https://cn.julialang.org/downloads/)
+
+>最好使用永久设置的方法. 后面使用 Julia软件包,最好通过Pkg 的形式安装, 这样安装是访问国内镜像资源.
+>但是有时有些依赖包仍然是时通过Github 仓库来实现的,需要耐心等候. 
+>
+
+>安装完之后在终端输入`Julia`.如果现实如下图形就表示成功
+
+## 2.运行 Julia
+```bash
+julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.7.1 (2021-12-22)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+julia>
+```
+可以在你想存储 julia 笔记的路径下运行 julia. 
+在 MacOS系统下通过一下命令
+```bash
+
+>cd /Users/lunarcheung/Public/github/plutonote/M4MADS/
+```
+就可以进入存储笔记的文件夹, 然后运行 julia软件
+
+```bash
+  julia>pwd()
+```
+可以查看现在在什么目录下工作. 
+
+这应在下面步骤打开的 Pluto http server 的时候是从进入的文件处打开的.如果对路径问题不熟,可以找比较了解的人咨询一下
+这个问题后面总是会遇到,所以早一点了解有好处.
+
+## 3. 安装Pluto 软件包
+
+```bash
+julia> ]
+
+(@v1..7) pkg>
+
+(@v1.7) pkg> add Pluto
+```
+
+## 4. 打开笔记
+
+运行下面命令:
+![](https://tva1.sinaimg.cn/mw690/e6c9d24egy1h2rult8k5bj20qy0cugmt.jpg)
+
+从本教程下载的笔记文件后缀为 `*.pluto.jl`.从本网站下载到本地电脑之后, 找到路径,拷贝到
+下图的输入框中. 浏览器的文件路径有些技巧, 会在微积分第一部分介绍到. 
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h2rulfjiqij21070meabi.jpg)
+
+本教程全部代码都是开源的,可以免费使用. 涉及的教材和视频除都提供资源下载服务. 
