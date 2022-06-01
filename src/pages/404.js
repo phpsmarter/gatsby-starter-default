@@ -1,14 +1,18 @@
-import * as React from "react"
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
+import Seo from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
-const NotFoundPage = () => (
-  <Layout>
-    <Seo title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
-)
-
-export default NotFoundPage
+export default function NotFound() {
+  return (
+    <Layout title="Page not found!">
+      <Seo title="404: Not found" />
+      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <p>
+        If you&#39;d like to go back to homepage, <Link to="/">click here</Link>
+        .
+      </p>
+    </Layout>
+  );
+}

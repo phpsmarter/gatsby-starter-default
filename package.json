@@ -1,45 +1,33 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-rocketdocs",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "1.0.0",
+  "description": "Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more",
+  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "license": "MIT",
+  "starter-name": "gatsby-starter-rocketdocs",
   "dependencies": {
-    "gatsby": "^4.15.1",
-    "gatsby-plugin-gatsby-cloud": "^4.15.0",
-    "gatsby-plugin-image": "^2.15.0",
-    "gatsby-plugin-manifest": "^4.15.0",
-    "gatsby-plugin-offline": "^5.15.0",
-    "gatsby-plugin-react-helmet": "^5.15.0",
-    "gatsby-plugin-sharp": "^4.15.0",
-    "gatsby-source-filesystem": "^4.15.0",
-    "gatsby-transformer-sharp": "^4.15.0",
-    "prop-types": "^15.8.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0"
+    "@rocketseat/gatsby-theme-docs": "^3.1.0",
+    "gatsby": "^4.2.0",
+    "gatsby-plugin-canonical-urls": "^4.2.0",
+    "gatsby-plugin-google-analytics": "^4.2.0",
+    "gatsby-plugin-manifest": "^4.2.0",
+    "gatsby-plugin-offline": "^5.2.0",
+    "gatsby-plugin-remove-trailing-slashes": "^4.2.0",
+    "gatsby-plugin-sitemap": "^5.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "devDependencies": {
-    "prettier": "^2.6.2"
-  },
+  "devDependencies": {},
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-starter"
   ],
-  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "clean": "gatsby clean"
   }
 }
