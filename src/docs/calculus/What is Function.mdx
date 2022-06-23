@@ -1,0 +1,46 @@
+---
+title: '函数简介'
+description: 第一次介绍函数
+---
+
+> 在M4MAD中,始终都在定义和研究函数.函数是具体的, 具体到像一个活灵活现的人类, 
+> 她有自己的性格, 有自己的特征. 刚开始你会觉得她奇丑无比, 但是一旦你反复的认识和
+> 了解了她的特性, 你会爱上她
+
+## 第一个函数
+通过第一个函数我们来看看函数的定义. 函数不一定要有数学表达式,或者说还没有找到数学表达式
+我们来看看苹果公司股票的一些信息
+
+## 准备工作
+后面的学习中需要使用一些数据表格, 由于 Pluto 是基于浏览器的软件软件包. 所需资源最好是从服务器加载
+这里就以 `node.js` 的 软件包 `http-server` 为例讲解一下
+### 1. node.js 安装
+
+ [安装步骤参见这里](https://www.runoob.com/nodejs/nodejs-install-setup.html)
+### 2. http-server安装
+   `node.js` 自带一个软件包管理工具`npm`,`http-server`是一个非常简单的 web 服务器软件包,可以在
+    任何目录启动 web 服务
+    通过一下命令安装`http-server`
+
+  ```bash
+     npm i -g http-server
+  ```
+  `-g` 的意思是全局安装, 因为有这个参数, 他就可以在任何目录下使用
+
+  在下面链接下载 苹果公司的股票交易
+  [苹果公司股票信息](https://github.com/plotly/datasets/blob/master/finance-charts-apple.csv)
+  因为有时候直接从这里加载 csv,可能会出问题
+    
+  在下载的有`finance-charts-apple.csv` 的目录下启动`http-server`
+  ```bash
+     http-server
+  ```
+
+### Pluto 中的加载 finance-charts-apple.csv文件
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h2sivzt5xdj21100u0aeh.jpg)
+
+### 使用数据绘制曲线
+
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h2siwaoyqwj210m0u078u.jpg)
+
+

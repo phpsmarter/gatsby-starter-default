@@ -8,6 +8,10 @@
   link: '/getting-started'  
 - label: 微积分
   items:
+    - label: '微积分序言'
+      link: '/calculus/perface'
+    - label: '第一个函数图像'
+      link: '/calculus/What is Function'
     - label: 'Creating docs'
       link: '/usage/creating-docs'
     - label: 'Navigation'
@@ -16,6 +20,10 @@
       link: '/usage/shadowing'
     - label: 'Using YAML files'
       link: '/usage/using-yaml-files'
+- label: 线性代数
+  items:
+    - label: '线性代数序言'
+      link: '/linearalgebra/perface'
 - label: 资源
   items:
     - label: '矩阵分解方法资源'
