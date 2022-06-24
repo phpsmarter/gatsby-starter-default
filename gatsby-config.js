@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `M4MADS`,
     siteTitleShort: `M4MADS`,
     siteDescription: `homepage of M4MADS`,
-    siteUrl: `https://rocketdocs.netlify.app`,
+    siteUrl: `https://m4mads.gatsbyjs.io/`,
     siteAuthor: `phpsmarter`,
     //siteImage: /* `/banner.png`, */
     siteLanguage: `en`,
@@ -44,7 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://m4mads.gatsbyjs.io/
+        `,
       },
     },
     `gatsby-plugin-offline`,
